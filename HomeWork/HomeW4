@@ -1,0 +1,13 @@
+import random
+
+evenlist = []
+oddlist = []
+for _ in range(10):
+    r_i = random.randint(1, 10)
+    print("Random : ", r_i)
+    if r_i%2:
+        evenlist.append(r_i)
+    else:
+        oddlist.append(r_i)
+print("Even nummers is:", evenlist)
+print("Odd numbers is:", oddlist)
